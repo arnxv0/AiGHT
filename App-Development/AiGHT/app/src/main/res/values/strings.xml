@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AiGHT</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">W6TI3tEapvblv1Eykqsn4eiPA8X3zRBW0S61PSSB</string>
+    <string name="back4app_client_key">zn5w0cS5ckBgCdfuuBMTgxuwYzEB5lEWA6uxfkbP</string>
+
+</resources>

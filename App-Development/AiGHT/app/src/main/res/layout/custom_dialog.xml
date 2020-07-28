@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_rectangle">
+
+
+    <ImageView
+        android:id="@+id/imageViewDeleteLogo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/delete_post_icon" />
+
+    <TextView
+        android:id="@+id/textViewDialogueTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewDeleteLogo"
+        android:layout_alignParentStart="true"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewDialogueContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDialogueTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/advent_pro_medium"
+        android:gravity="center_horizontal"
+        android:text="Are you sure you want to delete this post?"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textViewDeletePost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDialogueContent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/black_bar_color"
+        android:fontFamily="@font/advent_pro_regular"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp"
+        android:singleLine="true"
+        android:text="Delete"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewDeleteCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDialogueContent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_rectangle"
+        android:fontFamily="@font/advent_pro_regular"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp"
+        android:singleLine="true"
+        android:text="Cancel"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+</RelativeLayout>
