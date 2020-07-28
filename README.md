@@ -21,7 +21,7 @@ Software used: Figma
 
 #### Links for the submission: 
 -Uploaded to UI directory
--(**Optional**) A youtube video link explaining your prototype //Arnav add youtube link
+-(**Optional**) A youtube video link explaining your prototype: https://youtu.be/CpLgFdtErDM
 
 ### Write-up on the approach taken for UI design* (required)
 ---
@@ -37,7 +37,7 @@ a user to express themselves and put up what they want to rather than what the s
 Language/framework used: Java
 
 **Compulsary Requirements:**
-- An Youtube video link explaining all the features of the developed application : < link to demo here //arnav youtube link here >
+- An Youtube video link explaining all the features of the developed application : https://youtu.be/CpLgFdtErDM
 
 ---
 Developed for AppSprint'20.
